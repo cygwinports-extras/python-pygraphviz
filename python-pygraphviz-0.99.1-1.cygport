@@ -1,0 +1,6 @@
+inherit distutils
+
+
+HOMEPAGE="http://networkx.lanl.gov/pygraphviz/"
+
+PATCH_URI="0.99.1-docdir.patch"

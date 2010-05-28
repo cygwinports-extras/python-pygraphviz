@@ -1,0 +1,11 @@
+--- origsrc/pygraphviz-0.99.1/setup.py	2008-12-07 07:46:56.000000000 -0600
++++ src/pygraphviz-0.99.1/setup.py	2010-05-16 18:38:00.180017300 -0500
+@@ -135,7 +135,7 @@ else:
+ execfile(os.path.join('pygraphviz','release.py'))
+ 
+ packages = ["pygraphviz","pygraphviz.tests"]
+-docdirbase  = 'share/doc/pygraphviz-%s' % version
++docdirbase  = 'share/doc/python-pygraphviz'
+ data = [(docdirbase, glob("*.txt")),
+         (os.path.join(docdirbase, 'examples'),glob("examples/*.py")),
+         (os.path.join(docdirbase, 'examples'),glob("examples/*.dat")),
